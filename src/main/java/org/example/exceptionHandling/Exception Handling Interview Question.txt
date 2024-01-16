@@ -44,3 +44,6 @@ but they serve different purposes and have distinct characteristics:
      but if they occur, they are not required to be handled explicitly.
    - Examples include `NullPointerException`, `ArrayIndexOutOfBoundsException`, and `ArithmeticException`.
 
+3. Suppose we have a return statement in the catch block and there is finally block in which we have some print statement..
+   Will that print statement execute or not?
+-> Ans is Yes print statement will execute (Finally block will not execute only if there is system crash or system.exit() call)
