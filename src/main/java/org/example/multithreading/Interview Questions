@@ -1,0 +1,30 @@
+wait():
+ - The wait() method is called by a thread within a synchronized block to voluntarily give up
+   the lock it holds and enter a waiting state.
+ - It allows a thread to wait until a certain condition
+   is satisfied before resuming its execution.
+
+notify():
+ - The notify() method is called by a thread within a synchronized block to notify another
+   waiting thread that a certain condition has been met.
+ - It wakes up one of the waiting threads, allowing it to resume execution.
+ - The choice of which thread is awakened is not deterministic and depends on the
+   underlying JVM implementation.
+
+notifyAll():
+ - The notifyAll() method is similar to notify(), but it wakes up all the waiting threads
+    instead of just one.
+ - Multiple threads waiting on the  same object are awakened and compete for the lock when it's released.
+
+
+Life cycle of thread
+
+1. New    -> when thread is created using new operator ->  Thread t = new Thread(RunnableImp);
+2. Active -> Runnable State -> t.start();
+             Running State  -> when thread get CPU then it goes to running state
+3. Blocked / Waiting  -> Blocked by Lock
+                         Waiting for notification -> t.wait()
+4. Timed Waiting  -> Waiting for timeout notification -> Thread.sleep(timeInMillSec)
+5. Terminated    -> when run() methode executed completely
+
+IMP link : https://rishorg.nimbusweb.me/share/8865106/6gym6khbnimx8ldhdy5u/kxZMx3Z3zj1sc7aZ

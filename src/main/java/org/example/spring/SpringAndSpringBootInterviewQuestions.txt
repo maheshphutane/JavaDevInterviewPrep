@@ -1,0 +1,76 @@
+
+- When there are multiple beans of the same type available for autowiring then
+  it will lead to NoUniqueBeanDefinitionException.
+- To resolve this we can use below two annotations
+- The @Primary and @Qualifier annotations in Spring Framework are used to resolve ambiguities
+    when there are multiple beans of the same type available for autowiring.
+    ex - > @Qualifier can be used at the time of DI as below with all the types of injection
+    //Field Injection
+    @Qualifier("audi")
+    private Vehicle myVehicle;
+    OR
+    //Constructor injection
+    public MyClass(@Qualifier("beanName") Vehicle myVehicle){
+        this.myVehicle = myVehicle;
+    }
+    OR
+    //Setter Injection
+    public void setVehicle(@Qualifier("beaname") Vehicle myVehicle){
+        this.myVehicle = myVehicle;
+    }
+
+
+- @PathVariable example :->
+        @RestController
+        @RequestMapping("/users")
+        public class UserController {
+
+            @GetMapping("/{userId}")
+            public User getUser(@PathVariable("userId") Long userId) {
+                // Code to retrieve user based on userId
+                // ...
+                return user;
+            }
+        }
+
+demo:-  www.test.com/users/123, where 123 is Path Variable.
+
+-@RequestParam example
+
+@RestController
+@RequestMapping("/users")
+public class UserController {
+
+    @GetMapping("/search")
+    public List<User> searchUsers(@RequestParam("name") String name,
+                                  @RequestParam(value = "age", required = false) Integer age) {
+        // Code to search users based on name and age
+        // ...
+        return userList;
+    }
+}
+
+demo:-  www.test.com/users/search?name=John&age=25, where name and age are query parameters.
+
+- @PathVariable is used to extract data from path variables in the URL,
+- @RequestParam is used to extract data from query parameters.
+- Path variables are part of the URL structure,
+- query parameters are appended to the URL with key-value pairs.
+
+
+-@Transactional
+
+    - The @Transactional annotation in Spring is used to manage transactions
+    - Ensuring that the operations within the annotated scope either succeed
+      as a whole or are rolled back if an error occurs
+    - To enable transaction management in Spring, you need to use the @EnableTransactionManagement annotation.
+      This annotation is typically applied to a configuration class or a class annotated
+      with @Configuration to enable the Spring framework to handle transactional operations.
+
+
+
+
+
+
+
+

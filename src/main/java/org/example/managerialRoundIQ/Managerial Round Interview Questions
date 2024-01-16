@@ -1,0 +1,84 @@
+1. Introduce yourself
+
+ - Thanks for the opportunity, My name is Mahesh Phutane. I'm from Pandharpur, Maharashtra.
+    I'm Currently working as a Java Developer in TCS from last 2 years in an internal project
+    named as "Contestify" which is a platform to host cyber security related contest for specific employees
+    This project is built around java, spring, spring data JPA and MySQL as a database.
+    Coming to my educational details, I have completed my Bachelors in Computer Science and Engineering from
+    SVERI's college of engineering, Pandharpur in 2021. thats all about me!!
+
+2. What are your daily role and responsibilitiesgit?
+
+-  As a Java developer at TCS (Tata Consultancy Services), my daily responsibilities involve
+    1.Checking my mail box :(To check if any issue is pending to be done,check for any issue reported by tester or any production issues
+                                either I'm compliant of internal training or not and then plan my tasks accordingly)
+    2. Checking Story Board: (To understand what are the task pending on me, if there new story has assigned to me)
+    3. Attending Daily Stand-Up Call(DSC): this call we need to tell what work we had done yesterday, and what work
+        I will be doing today and discuss the blockers if any
+    4. Working on Story : this comes the main part, before jumping into solution I always look for different approachs
+        and find the efficient solution out of it and then write the code and test it with unit test cases then
+        commit my changes and work on feedback received on PR accordingly.
+    5. working on any production issue on priority basis
+    6. checking mail, filling timesheet signing off for the day
+
+3. tell me the architecture of your project
+-  Our project employs a Monolithic architecture, with core java and spring in the backend part and angular
+    on the frontend side. For continues integration and deployment we are using Jenkins CI/CD tool, For remote code
+    repository we have bitbucket for handling the load we use Akamai CDN at high level
+
+4. what is your salary expectations?
+
+- as an experienced Java developer with a 2 years of experience, I would expect a competitive salary
+  that aligns with the market rates and recognizes my skills and contributions to the organization.
+  I am expecting around 15-16 LPA, I am open to discussing salary details further based on the specifics
+  of the position, the company's compensation structure, and other benefits offered.
+
+5. why you are leaving your previous organization?
+
+- I have thoroughly enjoyed my time working at TCS and have gained valuable experience as a Java developer
+  over the past two years. However, I have reached a point in my career where I am seeking new challenges
+  and opportunities to further enhance my skills and contribute to a different industry.
+  Citi Bank has always been an organization that I admire, and I believe that their dynamic work environment
+  and focus on cutting-edge technology align well with my professional goals.
+  Additionally, Citi Bank's reputation for fostering innovation and providing excellent growth prospects
+  is something that greatly attracts me.
+  I am excited about the potential to contribute to Citi Bank's projects and be a part of their esteemed team.
+  I am confident that my skills and experience will be well-suited to the demands of the role,
+  and I am eager to make a positive impact in this new opportunity.
+
+6. Can you describe a situation where you had to resolve a conflict within your team? How did you handle it,
+   and what was the outcome?
+
+- In one instance, two team members had a disagreement regarding the allocation of tasks for a critical project.
+  I intervened by arranging a meeting where I encouraged open communication and active listening.
+  I ensured that both parties had an opportunity to express their concerns and perspectives.
+  By facilitating a constructive dialogue, we were able to find a compromise and redistribute the
+  tasks in a way that satisfied both individuals. The outcome was a resolution of the conflict,
+  improved collaboration within the team, and successful completion of the project.
+
+7. How do you prioritize tasks and manage your time effectively to meet project deadlines?
+
+- To prioritize tasks and meet deadlines, I follow a structured approach. I begin by evaluating the urgency and importance
+  of each task, considering factors such as project deadlines, dependencies, and stakeholder expectations.
+  I then create a detailed project plan, breaking down tasks into manageable units and setting realistic deadlines.
+  Regular monitoring and tracking of progress help me identify any potential delays,
+  allowing me to take proactive measures to address them and ensure timely completion of projects.
+
+8. Have you ever encountered a situation where you had to make a tough decision?
+   How did you analyze the options and arrive at a solution?
+
+-  Yes, I have faced a tough decision as a Java developer. In a project, we had a critical issue with a
+   system component. The options were to rewrite it from scratch or apply quick fixes.
+   After gathering input from the team and considering long-term implications,
+   we decided to invest time and resources to rewrite the component.
+   This decision resulted in a more sustainable solution, resolving the issues and improving system performance.
+   It taught me the importance of analyzing options, involving the team, and considering long-term benefits.
+
+9. Tell me about your project
+-  "Contestify" is a platform to host cyber security related contest for specific employees
+       This project is built around java, spring, spring data JPA and MySQL as a database.
+    It has majorly three main module or we can say role 1. Participants 2. regional Admin 3.Global admin
+    As our project is only limited to TCS employees, we get all the needed info about participant
+    from other internal team. the next ne is regional Admin who can setup the contest add the participant group,
+    setup questions. the role of global admin is to give access to regional admins add, delete them. my work is
+    to implement/update functionality writing test cases then documenting it along with resolving production issues

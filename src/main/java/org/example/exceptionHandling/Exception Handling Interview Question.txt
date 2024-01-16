@@ -1,0 +1,46 @@
+1. What is the difference bet throw and throws keyword?
+-> throw : - The throw keyword is used to explicitly throw an exception within a method.
+           - When the throw statement is executed, it interrupts the normal flow of the
+             program and transfers the control to the nearest matching catch block
+
+   throws : - The throws keyword is used in the method declaration to indicate that,
+              a method may throw one or more types of exceptions.
+            - It does not require try and catch block
+
+2. Explain the difference between Error and Exception classes.
+
+In Java, both `Error` and `Exception` classes are subclasses of the `Throwable` class,
+but they serve different purposes and have distinct characteristics:
+
+1. Error:
+- Errors are exceptional conditions that occur at runtime and are typically caused by critical problems
+  that are beyond the application's control.
+- Errors indicate severe failures that should not be caught or handled by regular application code.
+  They are usually unrecoverable and represent serious issues that may lead to the termination
+  of the application or system.
+- Some common examples of errors include `OutOfMemoryError`, `StackOverflowError`, and `LinkageError`.
+- These errors are often caused by fundamental problems such as resource exhaustion,
+  class loading issues, or problems with the JVM itself.
+
+2. Exception:
+-Exceptions, on the other hand, represent exceptional conditions that occur during the
+ normal execution of a program. Unlike errors, exceptions are usually recoverable
+ and can be caught, handled, or propagated within the application code.
+
+-Exceptions can be classified into two categories:
+
+   a. Checked Exceptions:
+   - Checked exceptions are exceptions that must be declared in the method signature using
+     the `throws` keyword or caught and handled using `try-catch` blocks.
+   - They are typically recoverable and represent conditions that the calling code
+     should be aware of and handle appropriately.
+   - Examples include `IOException`, `SQLException`, `CloneNotSupportedException`, and `ClassNotFoundException`.
+
+   b. Unchecked Exceptions:
+   - Unchecked exceptions, also known as runtime exceptions, do not need to be declared or caught explicitly.
+   - They are subclasses of `RuntimeException` and represent programming errors or unexpected conditions
+     that occur during runtime.
+   - Unchecked exceptions can and should be avoided by writing robust code,
+     but if they occur, they are not required to be handled explicitly.
+   - Examples include `NullPointerException`, `ArrayIndexOutOfBoundsException`, and `ArithmeticException`.
+
