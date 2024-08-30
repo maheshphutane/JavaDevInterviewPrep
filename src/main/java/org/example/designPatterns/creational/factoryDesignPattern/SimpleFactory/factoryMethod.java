@@ -1,4 +1,4 @@
-package org.example.designPatterns.creational.factoryDesignPattern;
+package org.example.designPatterns.creational.factoryDesignPattern.SimpleFactory;
 
 public class factoryMethod {
     public static void main(String[] args) {
