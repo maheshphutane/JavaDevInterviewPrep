@@ -28,6 +28,7 @@ public class GameService {
 
         for (WinningStratergy winningStrategy: game.getWinningStratergy()) {
             if (winningStrategy.isWinPossible(game.getBoard(), move)) {
+
                 System.out.printf("The player %s has won.\n", currentPlayer.getName());
                 game.setGameState(GameState.WIN);
                 game.setWinner(currentPlayer);

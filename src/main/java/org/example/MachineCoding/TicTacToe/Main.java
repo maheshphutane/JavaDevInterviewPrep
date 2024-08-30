@@ -66,11 +66,11 @@ public class Main {
         }
 
         System.out.println("Result of the game: ");
-
+        gameController.displayBoard(game);
         if (gameController.getGameState(game).equals(GameState.DRAW)) {
-            System.out.println("DRAW");
+            System.out.println("\nDRAW");
         } else {
-            System.out.println("The winner is: " + gameController.getWinner(game));
+            System.out.println("\nThe winner is: " + gameController.getWinner(game).getName());
         }
 
     }

@@ -4,51 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6b3671e-b78a-439b-894b-d1272d88113f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/observables/IphoneStockObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/observables/StockObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/observers/EmailNotificationObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/observers/MobileNotificationObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/ObservarDesignPattern/observers/StockObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/Info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/OffRodVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/PassengerVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/SportyVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/Srategies/DriveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/Srategies/NormalDriveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/Srategies/SpecialDriveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavioral/StrategyDesignPattern/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/BikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/Vehicle1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/AbstractFactory/VehicleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/BasePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/FarmHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/Margherita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/VegDelight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/toppings/CapsicumToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/toppings/MushroomToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/toppings/PannerToppings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/structural/DecoratorDesignPattern/toppings/PizzaToppings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a6b3671e-b78a-439b-894b-d1272d88113f" name="Changes" comment="Added new Design Patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/stratergies/winningStratergies/DiagonalWinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/SimpleFactory/Android.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/Mac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/SimpleFactory/Mac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/SimpleFactory/OS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/SimpleFactory/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/SimpleFactory/Windows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/factoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/factoryDesignPattern/SimpleFactory/factoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/controllers/GameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +53,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.PizzaStore.executor": "Run",
+    "Application.org.example.MachineCoding.TicTacToe.Main.executor": "Run",
     "Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main.executor": "Run",
     "Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -118,7 +79,7 @@
       <recent name="org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main">
+  <component name="RunManager" selected="Application.org.example.MachineCoding.TicTacToe.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.behavioral.StrategyDesignPattern.Main" />
       <module name="JavaDeveloperInterviewPrep" />
@@ -138,6 +99,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.designPatterns.structural.DecoratorDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.MachineCoding.TicTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MachineCoding.TicTacToe.Main" />
+      <module name="JavaDeveloperInterviewPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.MachineCoding.TicTacToe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.MachineCoding.TicTacToe.Main" />
         <item itemvalue="Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main" />
         <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main" />
@@ -197,11 +172,24 @@
       <option name="presentableId" value="Default" />
       <updated>1705402001176</updated>
       <workItem from="1724937441482" duration="1989000" />
-      <workItem from="1724939447145" duration="11922000" />
+      <workItem from="1724939447145" duration="13535000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new Design Patterns">
+      <option name="closed" value="true" />
+      <created>1725026601406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725026601406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new Design Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new Design Patterns" />
   </component>
 </project>

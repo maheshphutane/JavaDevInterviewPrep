@@ -7,6 +7,7 @@ import org.example.MachineCoding.TicTacToe.services.BoardService;
 import org.example.MachineCoding.TicTacToe.services.GameService;
 import org.example.MachineCoding.TicTacToe.stratergies.winningStratergies.ColumnWinningStratergy;
 import org.example.MachineCoding.TicTacToe.stratergies.winningStratergies.CornerWinningStratergy;
+import org.example.MachineCoding.TicTacToe.stratergies.winningStratergies.DiagonalWinningStrategy;
 import org.example.MachineCoding.TicTacToe.stratergies.winningStratergies.RowWinningStratergy;
 
 import java.util.List;
@@ -19,6 +20,7 @@ public class GameController {
                 .addWinningStrategry(new ColumnWinningStratergy())
                 .addWinningStrategry(new RowWinningStratergy())
                 .addWinningStrategry(new CornerWinningStratergy())
+                .addWinningStrategry(new DiagonalWinningStrategy())
                 .build();
     }
 
