@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6b3671e-b78a-439b-894b-d1272d88113f" name="Changes" comment="Added new Design Patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/stratergies/winningStratergies/DiagonalWinningStrategy.java" afterDir="false" />
+    <list default="true" id="a6b3671e-b78a-439b-894b-d1272d88113f" name="Changes" comment="Added DiagonalWinningStrategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/ParkingLotMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/exceptions/NoFreeSlotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/CommandName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/outputPrinter/CommandLineOutputPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/outputPrinter/OutputPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/CommandExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/CommandExecutorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/ParkingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/ParkingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/strategies/NearestAvailableParkingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/strategies/ParkingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/controllers/GameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.ParkingLotMain.executor": "Run",
     "Application.PizzaStore.executor": "Run",
     "Application.org.example.MachineCoding.TicTacToe.Main.executor": "Run",
     "Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main.executor": "Run",
@@ -79,13 +93,13 @@
       <recent name="org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.MachineCoding.TicTacToe.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.behavioral.StrategyDesignPattern.Main" />
+  <component name="RunManager" selected="Application.ParkingLotMain">
+    <configuration name="ParkingLotMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MachineCoding.ParkingLot.ParkingLotMain" />
       <module name="JavaDeveloperInterviewPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designPatterns.behavioral.StrategyDesignPattern.*" />
+          <option name="PATTERN" value="org.example.MachineCoding.ParkingLot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +161,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParkingLotMain" />
         <item itemvalue="Application.org.example.MachineCoding.TicTacToe.Main" />
         <item itemvalue="Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main" />
         <item itemvalue="Application.PizzaStore" />
         <item itemvalue="Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
       </set>
     </attachedChunks>
   </component>
@@ -172,7 +186,9 @@
       <option name="presentableId" value="Default" />
       <updated>1705402001176</updated>
       <workItem from="1724937441482" duration="1989000" />
-      <workItem from="1724939447145" duration="13535000" />
+      <workItem from="1724939447145" duration="15753000" />
+      <workItem from="1725081821318" duration="307000" />
+      <workItem from="1725082267859" duration="16078000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Design Patterns">
       <option name="closed" value="true" />
@@ -182,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725026601406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added DiagonalWinningStrategy">
+      <option name="closed" value="true" />
+      <created>1725028546319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725028546319</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new Design Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new Design Patterns" />
+    <MESSAGE value="Added DiagonalWinningStrategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DiagonalWinningStrategy" />
   </component>
 </project>

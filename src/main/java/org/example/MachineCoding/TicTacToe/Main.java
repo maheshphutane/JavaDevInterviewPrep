@@ -53,7 +53,7 @@ public class Main {
 
 
 
-        Game game = gameController.createGame(dimension, playerList);
+        Game game = GameController.createGame(dimension, playerList);
 
         while(gameController.getGameState(game).equals(GameState.IN_PROGRESS)) {
             System.out.println("This is the current board: ");
