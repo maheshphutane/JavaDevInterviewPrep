@@ -9,6 +9,11 @@ public class Main {
         Counter cnt = new Counter();
 
         Thread t1 = new Thread(()->{
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             for(int i = 0;i<1000;i++){
                 cnt.increment(1);
             }
@@ -22,13 +27,9 @@ public class Main {
 
         t1.start();
         t2.start();
-        t1.join();
-        t2.join();
+//        t1.join();
+//        t2.join();
 
-        List<Integer> arrl = new ArrayList<>(2);
-        arrl.add(1);
-        arrl.add(1);
-        arrl.add(1);
         System.out.println(cnt.getCnt());
     }
 }

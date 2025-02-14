@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 //Functional interface
 @FunctionalInterface
 interface test1{
-    public int sum(int a,int b);
+    int sum(int a,int b);
 }
 public class Java8Features {
     public static void main(String[] args) {
@@ -72,7 +72,7 @@ public class Java8Features {
         random.ints(0,11).limit(10).forEach(e->System.out.print(e+" "));
         System.out.println("\n");
 
-        //Count elements greater than 3 in List
+        //Count distinct elements greater than 3 in List
 
         System.out.println("Count distinct elements greater than 3 in List");
         Set<Integer> st2 = new HashSet<>();
@@ -148,11 +148,11 @@ public class Java8Features {
 
         //first non-repeating character in given string
         String nonRepChar = Arrays.stream(str.split(""))
-                .collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()))
+                .collect(Collectors.groupingBy(s->s,LinkedHashMap::new,Collectors.counting()))
                 .entrySet().stream()
                 .filter(x->x.getValue()==1)
                 .findFirst().get().getKey();
-        System.out.println("First Non repeating character is = "+nonRepChar);
+        System.out.println("First Non repeating character in "+str+" is = "+nonRepChar);
 
         //find the longest string in given array
 
