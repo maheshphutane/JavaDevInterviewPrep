@@ -48,9 +48,31 @@ public class CommandExecutorServiceImpl implements CommandExecutorService{
             case ADD_EXPENSE_IN_GROUP:
                 addExpenseInGroup(parameters);
                 break;
+            case SETTLE_UP:
+                settleUpInGroup(parameters);
+                break;
             default:
                 throw new IllegalStateException("Unexpected value: " + command1.getCommandName());
         }
+    }
+
+    //groupName lender borrower amount
+    private void settleUpInGroup(List<String> parameters) {
+        if(! isValidParameters(parameters,4)) return;
+        String groupName = parameters.get(0);
+        Group currGrp = groupController.getGroup(groupName);
+        if(currGrp == null){
+            outputPrinter.printGroupDoesNotExist();
+            return;
+        }
+        User lender = userController.getUser(parameters.get(1));
+        User borrower = userController.getUser(parameters.get(2));
+        Double amount = Double.parseDouble(parameters.get(3));
+        if(lender==null || borrower==null){
+            outputPrinter.printUserNotExist();
+            return;
+        }
+        currGrp.settleUP(borrower,lender,amount);
     }
 
     //groupName Payee Amount NoOfParticipant participantNames SplitType Split Share If any
@@ -63,6 +85,10 @@ public class CommandExecutorServiceImpl implements CommandExecutorService{
             return;
         }
         Group currGrp = groupController.getGroup(groupName);
+        if(currGrp==null){
+            outputPrinter.printGroupDoesNotExist();
+            return;
+        }
         if(!currGrp.getUserList().contains(userController.getUser(payee))){
             outputPrinter.printUserNotExistInGivenGroup(payee,groupName);
             return;

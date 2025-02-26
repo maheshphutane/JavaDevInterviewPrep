@@ -6,6 +6,7 @@ import org.example.MachineCoding.SplitWise.model.Transaction;
 import org.example.MachineCoding.SplitWise.model.User;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Getter
@@ -43,5 +44,9 @@ public class GroupController {
         if (group != null) {
             group.addTransaction(transaction);
         }
+    }
+
+    public void settleUP(List<String> parameters) {
+
     }
 }

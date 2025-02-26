@@ -12,4 +12,6 @@ public interface OutputPrinter {
     void printInvalidSplitDetails();
 
     void printUserNotExistInGivenGroup(String payee, String groupName);
+
+    void printGroupDoesNotExist();
 }
