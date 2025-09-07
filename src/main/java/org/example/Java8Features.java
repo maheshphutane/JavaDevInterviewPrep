@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 
 //Functional interface
 @FunctionalInterface
-interface test1{
-    int sum(int a,int b);
+interface Test1<T>{
+    int sum(T a,T b);
 }
 public class Java8Features {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class Java8Features {
 
         //Find out square of all odd elements in list
         System.out.println();
-        arr.stream().filter(e->e%2==0).forEach(e->System.out.print(e*2+" "));
+        arr.stream().filter(e->e%2!=0).forEach(e->System.out.print(e*2+" "));
         System.out.println();
 
         //Find out all the numbers that starts with 1
@@ -63,7 +63,8 @@ public class Java8Features {
         employeeList.add(new Employee(1900,"Ramesh","ramesh@gmail.com"));
         employeeList.add(new Employee(200,"Suresh","suresh@gmail.com"));
 
-        System.out.println("Max Salary of Employee is:- " +employeeList.stream().max(Comparator.comparing(Employee::getSalary)).get().getSalary());
+        System.out.println("Max Salary of Employee using Comparator.comparing is:- " +employeeList.stream().max(Comparator.comparing(Employee::getSalary)).get().getSalary());
+        System.out.println("Max Salary of Employee using reduce is:- " +employeeList.stream().reduce((a,b)->a.getSalary()>b.getSalary() ? a:b).get().getSalary());
 
         //Java 8 Program to Print ten random numbers using forEach
 
@@ -93,7 +94,7 @@ public class Java8Features {
         System.out.println(flattenedList+"\n");
 
         //Functional Interface
-        test1 t1 = (a,b) -> a+b;
+        Test1<Integer> t1 = (a,b) -> a+b;
 
         System.out.println("Functional Interface Example:- \n"+t1.sum(5,10)+"\n");
 
@@ -152,6 +153,12 @@ public class Java8Features {
                 .entrySet().stream()
                 .filter(x->x.getValue()==1)
                 .findFirst().get().getKey();
+
+        nonRepChar = Arrays.stream(str.split(""))
+                .collect(Collectors.groupingBy(s->s,LinkedHashMap::new,Collectors.counting()))
+                .entrySet().stream()
+                .reduce((a,b)-> a.getValue() == 1 ? a : b)
+                .get().toString();
         System.out.println("First Non repeating character in "+str+" is = "+nonRepChar);
 
         //find the longest string in given array

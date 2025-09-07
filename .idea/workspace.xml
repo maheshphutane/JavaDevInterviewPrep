@@ -4,33 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6b3671e-b78a-439b-894b-d1272d88113f" name="Changes" comment="Added DiagonalWinningStrategy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/ParkingLotMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/exceptions/NoFreeSlotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/CommandName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/models/Slot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/outputPrinter/CommandLineOutputPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/outputPrinter/OutputPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/CommandExecutorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/CommandExecutorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/ParkingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/services/ParkingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/strategies/NearestAvailableParkingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/ParkingLot/strategies/ParkingStrategy.java" afterDir="false" />
+    <list default="true" id="a6b3671e-b78a-439b-894b-d1272d88113f" name="Changes" comment="Added SplitWise LLD">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/caching/LRUCacheImplDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cloning/object-cloning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cursors/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designprinciples/SOLID prnciples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javamemorymanagment/garbage-collection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javamemorymanagment/memory-types.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/completableFuture/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/completableFuture/FutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/threadcommunication/ThreadCommunicationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/theoryinterviewquestions/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MachineCoding/TicTacToe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Java8Features.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8Features.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/PrototypeDesignPattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/PrototypeDesignPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/SingletoneDesignPattern/singletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/creational/SingletoneDesignPattern/singletonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptionHandling/Exception Handling Interview Question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptionHandling/Exception Handling Interview Question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Interview Questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Interview Questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/completableFuture/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/multithreading/raceCondition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/multithreading/raceCondition/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -62,44 +68,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.ParkingLotMain.executor": "Run",
-    "Application.PizzaStore.executor": "Run",
-    "Application.org.example.MachineCoding.TicTacToe.Main.executor": "Run",
-    "Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main.executor": "Run",
-    "Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CompletableFutureDemo.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.CompletableFutureExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorsMethode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FutureExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java8Features.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCacheImplDLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIteratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainSynchronizedMethode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParkingLotMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PizzaStore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintOneThreadAfterAnother.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitWiseMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadCommunicationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.builderMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.MachineCoding.TicTacToe.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.designPatterns.creational.PrototypeDesignPattern.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.designPatterns.creational.SingletoneDesignPattern.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.flatmap.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.multithreading.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mahes/IdeaProjects/JavaDevInterviewPrep&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.MachineCoding.SnakeAndLadder" />
       <recent name="org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParkingLotMain">
-    <configuration name="ParkingLotMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MachineCoding.ParkingLot.ParkingLotMain" />
+  <component name="RunManager" selected="Application.FutureExample">
+    <configuration name="CompletableFutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.completableFuture.CompletableFutureDemo" />
       <module name="JavaDeveloperInterviewPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MachineCoding.ParkingLot.*" />
+          <option name="PATTERN" value="org.example.multithreading.completableFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.structural.DecoratorDesignPattern.PizzaStore" />
+    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.completableFuture.CompletableFutureExample" />
       <module name="JavaDeveloperInterviewPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designPatterns.structural.DecoratorDesignPattern.*" />
+          <option name="PATTERN" value="org.example.multithreading.completableFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.MachineCoding.TicTacToe.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MachineCoding.TicTacToe.Main" />
+    <configuration name="FutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.completableFuture.FutureExample" />
       <module name="JavaDeveloperInterviewPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MachineCoding.TicTacToe.*" />
+          <option name="PATTERN" value="org.example.multithreading.completableFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.designPatterns.behavioral.ObservarDesignPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.behavioral.ObservarDesignPattern.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.raceCondition.Main" />
       <module name="JavaDeveloperInterviewPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designPatterns.behavioral.ObservarDesignPattern.*" />
+          <option name="PATTERN" value="org.example.multithreading.raceCondition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main" />
+    <configuration name="ThreadCommunicationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.threadcommunication.ThreadCommunicationExample" />
       <module name="JavaDeveloperInterviewPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.*" />
+          <option name="PATTERN" value="org.example.multithreading.threadcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParkingLotMain" />
-        <item itemvalue="Application.org.example.MachineCoding.TicTacToe.Main" />
-        <item itemvalue="Application.org.example.designPatterns.creational.factoryDesignPattern.AbstractFactory.Main" />
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.org.example.designPatterns.behavioral.ObservarDesignPattern.Main" />
+        <item itemvalue="Application.FutureExample" />
+        <item itemvalue="Application.CompletableFutureExample" />
+        <item itemvalue="Application.CompletableFutureDemo" />
+        <item itemvalue="Application.ThreadCommunicationExample" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +215,19 @@
       <workItem from="1724939447145" duration="15753000" />
       <workItem from="1725081821318" duration="307000" />
       <workItem from="1725082267859" duration="16078000" />
+      <workItem from="1739981310051" duration="943000" />
+      <workItem from="1740233581820" duration="4780000" />
+      <workItem from="1740289177069" duration="19550000" />
+      <workItem from="1740546430062" duration="5140000" />
+      <workItem from="1741931807705" duration="1127000" />
+      <workItem from="1742042885731" duration="549000" />
+      <workItem from="1742099368682" duration="4155000" />
+      <workItem from="1747327034853" duration="4785000" />
+      <workItem from="1747363381607" duration="7035000" />
+      <workItem from="1747442807514" duration="10751000" />
+      <workItem from="1749906499175" duration="711000" />
+      <workItem from="1757086115649" duration="7006000" />
+      <workItem from="1757255799022" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Design Patterns">
       <option name="closed" value="true" />
@@ -206,7 +245,39 @@
       <option name="project" value="LOCAL" />
       <updated>1725028546319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Interview questions regarding multithreading">
+      <option name="closed" value="true" />
+      <created>1739502887036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739502887036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Snake and Ladder Game LLD">
+      <option name="closed" value="true" />
+      <created>1740237666070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237666070</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added SCaching interview questions">
+      <option name="closed" value="true" />
+      <created>1740237828283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237828283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added SplitWise LLD">
+      <option name="closed" value="true" />
+      <created>1740334131346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740334131346</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +286,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new Design Patterns" />
     <MESSAGE value="Added DiagonalWinningStrategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DiagonalWinningStrategy" />
+    <MESSAGE value="Added Interview questions regarding multithreading" />
+    <MESSAGE value="Added Snake and Ladder Game LLD" />
+    <MESSAGE value="Added SCaching interview questions" />
+    <MESSAGE value="Added SplitWise LLD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SplitWise LLD" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaDevInterviewPrep$FutureExample.ic" NAME="FutureExample Coverage Results" MODIFIED="1757164926639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.multithreading.completableFuture.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaDevInterviewPrep$CompletableFutureDemo.ic" NAME="CompletableFutureDemo Coverage Results" MODIFIED="1757163546107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.multithreading.completableFuture.*</FILTER>
+    </SUITE>
   </component>
 </project>

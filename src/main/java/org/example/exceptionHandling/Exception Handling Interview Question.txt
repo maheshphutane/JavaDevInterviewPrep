@@ -47,3 +47,21 @@ but they serve different purposes and have distinct characteristics:
 3. Suppose we have a return statement in the catch block and there is finally block in which we have some print statement..
    Will that print statement execute or not?
 -> Ans is Yes print statement will execute (Finally block will not execute only if there is system crash or system.exit() call)
+
+4. Exception Hierarchy in Java
+   - Throwable
+     - Error
+       - LinkageError
+       - OutOfMemoryError
+       - StackOverflowError
+     - Exception
+       - IOException
+         - FileNotFoundException
+         - EOFException
+         - SocketException
+       - SQLException
+       - ClassNotFoundException
+       - RuntimeException
+         - NullPointerException
+         - ArrayIndexOutOfBoundsException
+         - ArithmeticException

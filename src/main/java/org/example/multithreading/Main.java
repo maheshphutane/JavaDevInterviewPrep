@@ -17,7 +17,7 @@ public class Main {
         Thread t4 = new Thread(() -> System.out.println("In new Thread"));
 
         //t1.setDaemon(true);
-        t1.start();
+       // t1.start();
 
         //t2.setDaemon(true);
         t2.start();

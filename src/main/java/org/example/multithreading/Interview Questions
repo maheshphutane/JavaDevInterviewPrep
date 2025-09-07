@@ -27,4 +27,15 @@ Life cycle of thread
 4. Timed Waiting  -> Waiting for timeout notification -> Thread.sleep(timeInMillSec)
 5. Terminated    -> when run() methode executed completely
 
-IMP link : https://rishorg.nimbusweb.me/share/8865106/6gym6khbnimx8ldhdy5u/kxZMx3Z3zj1sc7aZ
+Diff bet Future and CompletableFuture
+| Feature            | `Future` | `CompletableFuture`                         |
+| ------------------ | -------- | ------------------------------------------- |
+| Introduced         | Java 5   | Java 8                                      |
+| Blocking `get()`   | ✅       | Optional (non-blocking methods available)   |
+| Async callbacks    | ❌       | ✅ (`thenApply`, `thenAccept`, etc.)        |
+| Task chaining      | ❌       | ✅ (`thenCompose`, `thenCombine`)           |
+| Manual completion  | ❌       | ✅ (`complete()`, `completeExceptionally()`)|
+| Exception handling | Basic    | Rich (`exceptionally`, `handle`)             |
+
+The main advantage of using CompletableFuture is its ability to chain multiple tasks together that will be
+executed without blocking the current thread. Therefore, we can say the CompletableFuture is non-blocking.

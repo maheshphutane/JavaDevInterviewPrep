@@ -15,13 +15,13 @@ public class Main {
                 throw new RuntimeException(e);
             }
             for(int i = 0;i<1000;i++){
-                cnt.increment(1);
+                cnt.increment(10);
             }
         });
 
         Thread t2 = new Thread(()->{
             for(int i = 0;i<1000;i++){
-                cnt.decrement(1);
+                cnt.decrement(10);
             }
         });
 

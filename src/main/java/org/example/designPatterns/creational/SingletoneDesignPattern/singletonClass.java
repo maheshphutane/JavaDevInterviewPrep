@@ -1,7 +1,7 @@
 package org.example.designPatterns.creational.SingletoneDesignPattern;
 
 public class singletonClass {
-    //Singleton Design Pattern - With Perforce over head
+    //Singleton Design Pattern - With Performance over head
     //Def :- Singleton class means there will be only one object of that class, we cannot create multiple objects of it
     //Create a singleton class
     //Steps
